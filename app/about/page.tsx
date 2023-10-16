@@ -1,5 +1,8 @@
 import React from "react";
 import { About } from "../lib/interface";
+import Image from 'next/image'
+import logo from '../images/logo.png'
+import gingerbread from '../images/gingerbread.jpg'
 
 export default async function About(){
     return (
@@ -12,7 +15,7 @@ export default async function About(){
         <ul>
           <li className="py-4 space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
               <div>
-                <img src="./images/logo.png" max-width="100%" width="240"/>
+                <Image src={logo} height={240} width={240} alt="Logo"/>
               </div>
                 <div className="ml-12 w-max">
                   <h3 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
@@ -29,7 +32,7 @@ export default async function About(){
           </li>
           <li className="py-4 space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
               <div>
-                <img src="./images/logo.png" max-width="100%" width="240"/>
+                <Image className="rounded-full" src={gingerbread} height={240} width={240} alt="Gingerbread"/>
               </div>
                 <div className="ml-12 w-max">
                   <h3 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
