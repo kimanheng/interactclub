@@ -10,8 +10,6 @@ export const metadata = {
   description: "Interact Club for Everyone",
 };
 
-export const revalidate = 60
-
 export default function RootLayout({
   children,
 }: {

@@ -9,7 +9,6 @@ async function getData() {
 
   return data;
 }
-export const revalidate = 60
 
 export default async function IndexPage() {
   const data = (await getData()) as Post[];
@@ -28,7 +27,7 @@ export default async function IndexPage() {
             <article className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
               <div>
                 <p className="text-base font-medium leading-6 text-[#7096d1]">
-                  {new Date(post._createdAt).toISOString().split("T")[0]}
+                  {post.date}
                 </p>
               </div>
 

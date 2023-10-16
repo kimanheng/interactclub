@@ -40,7 +40,7 @@ export default async function SlugPage({
           <div className="space-y-10">
             <div>
               <p className="text-base font-medium leading-6 text-[#7096d1]">
-                {new Date(data._createdAt).toISOString().split("T")[0]}
+                {data.date}
               </p>
             </div>
           </div>
