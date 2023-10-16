@@ -1,5 +1,5 @@
-import Navbar from "./components/Navbar";
-import { Providers } from "./components/Providers";
+import Navbar from "@/components/Navbar";
+import { Providers } from "@/components/Providers";
 import "./globals.css";
 import { EB_Garamond } from "next/font/google";
 
