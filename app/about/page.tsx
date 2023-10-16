@@ -22,9 +22,8 @@ export default async function About(){
                     A Student-Led Club <br/> 
                     <span className ="text-[#7096d1]">
                         2019-Present</span><br/>
-                </p>
-                <p className="text-gray-500 dark:text-gray-400 line-clamp-2">
-                    For everyone and the community.
+                    <span className="text-gray-500 dark:text-gray-400 line-clamp-2">
+                    For everyone and the community.</span>
                 </p>
               </div>    
           </li>
@@ -40,9 +39,8 @@ export default async function About(){
                     Vice President <br/> 
                     <span className ="text-[#7096d1]">
                         2023-2024</span><br/>
-                </p>
-                <p className="text-gray-500 dark:text-gray-400 line-clamp-2">
-                    Hiiii, I like to eat candies.
+                    <span className="text-gray-500 dark:text-gray-400 line-clamp-2">
+                        For everyone and the community.</span>
                 </p>
               </div>    
           </li>
