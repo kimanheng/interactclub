@@ -18,7 +18,7 @@ export default async function About(){
                 <Image src={logo} height={240} width={240} alt="Logo"/>
               </div>
                 <div className="ml-12 w-max">
-                  <h3 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
+                  <h3 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
                     Interact Club
                   </h3>
                   <p>
@@ -35,7 +35,7 @@ export default async function About(){
                 <Image className="rounded-full" src={gingerbread} height={240} width={240} alt="Gingerbread"/>
               </div>
                 <div className="ml-12 w-max">
-                  <h3 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
+                  <h3 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
                     Ginger Bread
                   </h3>
                   <p>
