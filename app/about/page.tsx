@@ -13,7 +13,7 @@ export default async function About(){
             </h1>
         </div>
         <ul>
-          <li className="py-4 space-y-2 xl:grid xl:grid-cols-5 xl:items-baseline xl:space-y-0">
+          <li className="flex item-centers py-4 space-y-2 xl:grid xl:grid-cols-5 xl:items-baseline xl:space-y-0">
               <div>
                 <Image src={logo} height={240} width={240} alt="Logo"/>
               </div>
@@ -30,7 +30,7 @@ export default async function About(){
                 </p>
               </div>    
           </li>
-          <li className="py-4 space-y-2 xl:grid xl:grid-cols-5 xl:items-baseline xl:space-y-0">
+          <li className="flex item-centers py-4 space-y-2 xl:grid xl:grid-cols-5 xl:items-baseline xl:space-y-0">
               <div>
                 <Image className="rounded-full" src={gingerbread} height={240} width={240} alt="Gingerbread"/>
               </div>
