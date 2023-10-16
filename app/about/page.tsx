@@ -12,7 +12,7 @@ export default async function About(){
         <ul>
           <li className="py-4 space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
               <div>
-                <img src="./images/logo.png" width="240"/>
+                <img src="./images/logo.png" max-width="100%" width="240"/>
               </div>
                 <div className="ml-12 w-max">
                   <h3 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
@@ -29,7 +29,7 @@ export default async function About(){
           </li>
           <li className="py-4 space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
               <div>
-                <img src="./images/logo.png" width="240"/>
+                <img src="./images/logo.png" max-width="100%" width="240"/>
               </div>
                 <div className="ml-12 w-max">
                   <h3 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
