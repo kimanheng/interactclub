@@ -8,11 +8,13 @@ export default function Navbar() {
         <div className="flex justify-between items-center w-full">
           <Link href="/">
             <h1 className="text-2xl font-medium">
-              Jan <span className="text-teal-500">Blog</span>
+              Interact <span className="text-[#7096d1]">Club</span>
             </h1>
           </Link>
-
-          <Themebutton />
+          <div className ="flex">
+            <Link href=""><p className="mr-4">About</p></Link>
+            <Themebutton />
+          </div>
         </div>
       </div>
     </div>
