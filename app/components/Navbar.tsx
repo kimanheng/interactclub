@@ -12,7 +12,7 @@ export default function Navbar() {
             </h1>
           </Link>
           <div className ="flex">
-            <Link href=""><p className="mr-4">About</p></Link>
+            <Link href="/about"><p className="mr-4">About</p></Link>
             <Themebutton />
           </div>
         </div>
