@@ -10,8 +10,43 @@ export default async function About(){
             </h1>
         </div>
         <ul>
-
-        </ul>
+          <li className="py-4 space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+              <div>
+                <img src="./images/logo.png" width="240"/>
+              </div>
+                <div className="ml-12 w-max">
+                  <h3 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
+                    Interact Club
+                  </h3>
+                  <p>
+                    A Student-Led Club <br/> 
+                    <span className ="text-[#7096d1]">
+                        2019-Present</span><br/>
+                </p>
+                <p className="text-gray-500 dark:text-gray-400 line-clamp-2">
+                    For everyone and the community.
+                </p>
+              </div>    
+          </li>
+          <li className="py-4 space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+              <div>
+                <img src="./images/logo.png" width="240"/>
+              </div>
+                <div className="ml-12 w-max">
+                  <h3 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
+                    Ginger Bread
+                  </h3>
+                  <p>
+                    Vice President <br/> 
+                    <span className ="text-[#7096d1]">
+                        2023-2024</span><br/>
+                </p>
+                <p className="text-gray-500 dark:text-gray-400 line-clamp-2">
+                    Hiiii, I like to eat candies.
+                </p>
+              </div>    
+          </li>
+      </ul>
     </div>
     )
 }
