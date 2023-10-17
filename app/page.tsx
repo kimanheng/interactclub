@@ -3,9 +3,6 @@
 import { Gallery } from "react-grid-gallery";
 
 export default function IndexPage() {
-
-
-
     return (
         <div className="flex flex-col mt-8">
              <div className="flex flex-wrap justify-center text-center mb-24">
@@ -14,7 +11,7 @@ export default function IndexPage() {
                  INTERACT <span className="text-[#7096d1]">CLUB</span></h1>
               </div>
             </div>
-        <h1 className="text-xl font-light text-center text-[#081f3c] absolute inset-x-0 bottom-0 h-16">
+        <h1 className="text-xl font-light text-center text-[#081f3c] inset-x-0 bottom-0 h-16">
                 The Interact Club is a student-led club that aims to help those in need and urge others to do the same.
         </h1>
       </div>

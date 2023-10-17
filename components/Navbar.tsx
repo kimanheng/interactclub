@@ -3,6 +3,11 @@ import Themebutton from "./ThemeButton";
 import SocialIcon from '@/components/social-icons';
 import siteMetadata from '@/data/siteMetadata'
 
+const navItems = [
+  {text: "raising fund", href: "/fundraising"},
+  {text: "how we help", href: "/helping"},
+]
+
 export default function Navbar() {
   return (
     <div className="bg-[#f7f2eb] border-2 border-b-[#7096d1] border-t-[#f7f2eb] border-x-[#f7f2eb] mx-auto px-4 sm:px-6 lg:px-8">
