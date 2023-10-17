@@ -3,12 +3,16 @@ import Image from 'next/image'
 
 export default async function About(){
     return (
-    <div className="divide-y divide-gray-400 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-            <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            About
-            </h1>
+        <div className="flex flex-col mt-8">
+            <div className="flex flex-wrap justify-center text-center mb-24">
+              <div className="w-full lg:w-6/12 px-4">
+                <h1 className="text-6xl font-medium text-[#081f3c]">
+                  ABOUT <span className="text-[#7096d1]">US</span></h1>
+                <p className="text-2xl font-light">student led club by</p>
+                <hr className="h-0.5 my-4 bg-[#7096d1] border-none"></hr>
+                <p className="text-2xl font-light italic">leaders of 2023-2024</p>
+              </div>
+          </div>
         </div>
-    </div>
     )
 }

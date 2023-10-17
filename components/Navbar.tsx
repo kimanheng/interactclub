@@ -5,7 +5,7 @@ import siteMetadata from '@/data/siteMetadata'
 
 export default function Navbar() {
   return (
-    <div className="bg-[#f7f2eb] mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="bg-[#f7f2eb] border-2 border-b-[#7096d1] border-t-[#f7f2eb] border-x-[#f7f2eb] mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between h-16">
         <div className="flex justify-between items-center w-full">
           <div className="flex">
