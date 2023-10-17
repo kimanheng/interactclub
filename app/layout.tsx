@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import { Providers } from "@/components/Providers";
-import "./globals.css";
+import "./global.css";
 import { EB_Garamond } from "next/font/google";
 
 const eb_garamond = EB_Garamond({ subsets: ["latin"] });
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={` ${eb_garamond.className} bg-[#fffcf9] text-black dark:bg-[#121212] dark:selection:bg-[#334eac] dark:text-white h-full selection:bg-[#d0e3ff]`}
+        className={` ${eb_garamond.className} bg-[#fffcf9] text-[#081f3c] dark:bg-[#121212] dark:selection:bg-[#334eac] dark:text-white h-full selection:bg-[#d0e3ff]`}
       >
         <Providers>
           <Navbar />
