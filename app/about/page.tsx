@@ -54,6 +54,22 @@ export default function About(){
             <ProfileCard src={""} position={"President"} name={"Monita"}/>
             <ProfileCard src={""} position={"President"} name={"Monita"}/>
           </div>
+          <p className="text-center text-2xl font-light italic mb-6">leaders of year 2018-2019</p>
+          <div className="flex flex-wrap justify-center">
+            <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163844965273698314/IMG_1596.jpg?ex=65410e16&is=652e9916&hm=138494dea4c6942a3097e8df946ae2c5e01f1025ead30fb330ae82de261ae64c&width=400&height=400"} position={"President"} name={"Abbasse Nurtitinova"}/>
+            <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163844965584085042/IMG_1597.jpg?ex=65410e16&is=652e9916&hm=6e25531bff97b11d2432db9e80a1eb1b3cb3c2efb7bcfbdc7c88f1d292398ada&width=400&height=400"} position={"Vice President"} name={"Rattanakun Sith"}/>
+            <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163844964363534406/IMG_1593.jpg?ex=65410e16&is=652e9916&hm=334486ac30fdc5a49977ef47fbaf4f2ecd698d9e033f469faf6ef71c079cce76&width=400&height=400"} position={"Vice President"} name={"Lou Han Thanh"}/>
+          </div>
+          <div className="flex flex-wrap justify-center">
+          <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163844964661338253/IMG_1594.jpg?ex=65410e16&is=652e9916&hm=6503700a8899823365a7aec38998d90179034e5715cc1742a2dd3bbdef7548a6&width=400&height=400"} position={"Head of Secretaries"} name={"Patriece Janiele R.Penaranda"}/>
+            <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163844964980113538/IMG_1595.jpg?ex=65410e16&is=652e9916&hm=7c721e94d693bf60c258caf9fe8c47a2ee328a16604a2316ee71db89828353c8&width=400&height=400"} position={"Secretary"} name={"Antonette Gabrielle Villapana"}/>
+            <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163844965881888868/IMG_1598.jpg?ex=65410e17&is=652e9917&hm=358435c73a16588500f3fb9497caa6e75decf4d97babe51a3085b1dc3328119a&width=400&height=400"} position={"Secretary"} name={"Visal Mony Chhorn"}/>
+          </div>
+          <div className="flex flex-wrap justify-center">
+          <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163844966183862432/IMG_1599.jpg?ex=65410e17&is=652e9917&hm=be6cd5867c24c27d80e28c2d76a7263f72a5a6595bc749f7b3fc4097520302a2&width=400&height=400"} position={"Head of Finance"} name={"Sang Jae Lee"}/>
+            <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163844966477471774/IMG_1600.jpg?ex=65410e17&is=652e9917&hm=eafb3f1e8b46888289a6abfc7a43d11d48fa20dfa2bb5c245f0f852b14911f2c&=&width=400&height=400"} position={"Treasurer"} name={"Alexandra Khechoyan"}/>
+            <ProfileCard src={""} position={"President"} name={"Monita"}/>
+          </div>
       </div>
     )
 }

@@ -8,6 +8,7 @@ export default async function Helping(){
               <div className="w-full lg:w-6/12 px-4">
                 <h1 className="text-6xl font-medium text-[#081f3c]">
                   HOW WE <span className="text-[#7096d1]">HELP</span></h1>
+                <p className="text-2xl mt-2">working with NGOS, we are able to:</p>
               </div>
           </div>
         </div>

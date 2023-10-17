@@ -8,6 +8,7 @@ export default async function Fundraising(){
               <div className="w-full lg:w-6/12 px-4">
                 <h1 className="text-6xl font-medium text-[#081f3c]">
                   RAISING <span className="text-[#7096d1]">FUND</span></h1>
+                  <p className="text-2xl mt-2">we make events. for example:</p>
               </div>
           </div>
         </div>
