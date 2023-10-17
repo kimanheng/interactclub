@@ -2,8 +2,6 @@ import Link from "next/link";
 import Themebutton from "./ThemeButton";
 import SocialIcon from '@/components/social-icons';
 import siteMetadata from '@/data/siteMetadata'
-import Image from 'next/image'
-import logo from 'images/logo.png'
 
 export default function Navbar() {
   return (
