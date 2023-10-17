@@ -1,7 +1,7 @@
 import React from "react";
 import Image from 'next/image'
 
-export default async function About(){
+export default async function Fundraising(){
     return (
         <div className="flex flex-col mt-8">
             <div className="flex flex-wrap mb-24">
