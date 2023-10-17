@@ -1,6 +1,5 @@
 import Image from 'next/image'
 
-
 export default function ProfileCard() {
     return (
         <div className="flex flex-wrap">

@@ -3,11 +3,6 @@ import Themebutton from "./ThemeButton";
 import SocialIcon from '@/components/social-icons';
 import siteMetadata from '@/data/siteMetadata'
 
-const navItems = [
-  {text: "raising fund", href: "/fundraising"},
-  {text: "how we help", href: "/helping"},
-]
-
 export default function Navbar() {
   return (
     <div className="bg-[#f7f2eb] border-2 border-b-[#7096d1] border-t-[#f7f2eb] border-x-[#f7f2eb] mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,10 +14,11 @@ export default function Navbar() {
           </div>
 
           <div className ="flex justify-between items-center">
+            
             <Link href="/"><p className="text-xl font-bold italic drop-shadow-lg">what we do</p></Link>
             <span className="mx-4 mb-6 text-5xl">.</span>
             <Link href="/about"><p className="mr-4 text-xl font-bold italic drop-shadow-lg">about us</p></Link>
-            <Themebutton />
+          <Themebutton />
           </div>
         </div>
       </div>
