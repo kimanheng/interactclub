@@ -18,7 +18,7 @@ export default function Navbar() {
             <Link href="/"><p className="text-xl font-bold italic drop-shadow-lg">what we do</p></Link>
             <span className="mx-4 mb-6 text-5xl">.</span>
             <Link href="/about"><p className="mr-4 text-xl font-bold italic drop-shadow-lg">about us</p></Link>
-          <Themebutton />
+          <Link href="/horror"><Themebutton /></Link>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import p2022 from 'images/gingerbread.jpg'
 import ProfileCard from 'components/ProfileCard'
 
-export default async function About(){
+export default function About(){
     return (
         <div className="flex flex-col mt-8">
             <div className="flex flex-wrap justify-center text-center">
