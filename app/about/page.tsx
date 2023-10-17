@@ -67,8 +67,9 @@ export default function About(){
           </div>
           <div className="flex flex-wrap justify-center">
           <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163844966183862432/IMG_1599.jpg?ex=65410e17&is=652e9917&hm=be6cd5867c24c27d80e28c2d76a7263f72a5a6595bc749f7b3fc4097520302a2&width=400&height=400"} position={"Head of Finance"} name={"Sang Jae Lee"}/>
-            <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163844966477471774/IMG_1600.jpg?ex=65410e17&is=652e9917&hm=eafb3f1e8b46888289a6abfc7a43d11d48fa20dfa2bb5c245f0f852b14911f2c&=&width=400&height=400"} position={"Treasurer"} name={"Alexandra Khechoyan"}/>
-            <ProfileCard src={""} position={"President"} name={"Monita"}/>
+            <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163844966477471774/IMG_1600.jpg?ex=65410e17&is=652e9917&hm=eafb3f1e8b46888289a6abfc7a43d11d48fa20dfa2bb5c245f0f852b14911f2c&width=400&height=400"} position={"Treasurer"} name={"Alexandra Khechoyan"}/>
+            <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163847531403419738/IMG_1602.jpg?ex=6541107a&is=652e9b7a&hm=7a06a49e59b152f59cd10985a1e264371796aa31ec6943171a183ae5abdb85d8&width=400&height=400"} position={"Assistant"} name={"Gerald Aaron Tarza"}/>
+            <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163848117070860348/IMG_1603.jpg?ex=65411106&is=652e9c06&hm=9c385c26f777bcc550060ceaf9722b1028b17faa26dba25cc7a47d9b50183e66&width=400&height=400"} position={"Head of Media"} name={"Tang Mong Siriwadh"}/>
           </div>
       </div>
     )
