@@ -26,6 +26,12 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+      <div className="absolute right-40 z-10 w-36 origin-top-right bg-[#7096d1]">
+    <div className="py-1" role="none">
+      <a href="/doing/fundraising" className="block pt-1 font-thin text-lg text-white text-center underline">raising funds</a>
+      <a href="/doing/helping" className="block pb-2 font-thin text-lg text-white text-center underline">how we help</a>
+    </div>
+  </div>
     </div>
   );
 }
