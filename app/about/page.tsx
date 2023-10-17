@@ -1,6 +1,4 @@
 import React from "react";
-import Image from 'next/image'
-import p2022 from 'images/gingerbread.jpg'
 import ProfileCard from 'components/ProfileCard'
 
 export default function About(){
@@ -15,182 +13,26 @@ export default function About(){
               </div>
           </div>
           <p className="text-center text-2xl font-light italic mb-6">leaders of year 2023-2024</p>
-          <div className="flex flex-wrap">
-              <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div className="flex flex-col">
-                        <Image className="border-2 border-black"
-                            src={p2022} width={400} height={400} alt="profile"></Image>
-                    <div className="text-center mt-4">
-                      <h1 className="text-2xl font-medium mb-1">
-                                President
-                      </h1>
-                    <div className="font-light text-xl mb-2">
-                        Ginger Bread
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4 ">
-                  <div className="flex flex-col">
-                        <Image className="border-2 border-black"
-                            src={p2022} width={400} height={400} alt="profile"></Image>
-                    <div className="text-center mt-4">
-                      <h1 className="text-2xl font-medium mb-1">
-                                Vice President
-                      </h1>
-                    <div className="font-light text-xl mb-2">
-                        Ginger Bread
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div className="flex flex-col">
-                        <Image className="border-2 border-black"
-                            src={p2022} width={400} height={400} alt="profile"></Image>
-                    <div className="text-center mt-4">
-                      <h1 className="text-2xl font-medium mb-1">
-                                Treasurer
-                      </h1>
-                    <div className="font-light text-xl mb-2">
-                        Ginger Bread
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div className="flex flex-col">
-                        <Image className="border-2 border-black"
-                            src={p2022} width={400} height={400} alt="profile"></Image>
-                    <div className="text-center mt-4">
-                      <h1 className="text-2xl font-medium mb-1">
-                                Media Manager
-                      </h1>
-                    <div className="font-light text-xl mb-2">
-                        Ginger Bread
-                    </div>
-                  </div>
-              </div>
-            </div>
-        </div>
+        <div className="flex flex-wrap">
+            <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163822215947624488/image.png?ex=6540f8e7&is=652e83e7&hm=54542708fc33fe30370a7d276b07dd9ed9a0184fe77deb6d3719f4386f43d51c&=&width=400&height=400"} position={"President"} name={"Monita"}/>
+            <ProfileCard src={""} position={"President"} name={"Monita"}/>
+            <ProfileCard src={""} position={"President"} name={"Monita"}/>
+            <ProfileCard src={""} position={"President"} name={"Monita"}/>
+          </div>
         <p className="text-center text-2xl font-light italic mb-6">leaders of year 2022-2023</p>
           <div className="flex flex-wrap">
-              <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div className="flex flex-col">
-                        <Image className="border-2 border-black"
-                            src={p2022} width={400} height={400} alt="profile"></Image>
-                    <div className="text-center mt-4">
-                      <h1 className="text-2xl font-medium mb-1">
-                                President
-                      </h1>
-                    <div className="font-light text-xl mb-2">
-                        Ginger Bread
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div className="flex flex-col">
-                        <Image className="border-2 border-black"
-                            src={p2022} width={400} height={400} alt="profile"></Image>
-                    <div className="text-center mt-4">
-                      <h1 className="text-2xl font-medium mb-1">
-                                Vice President
-                      </h1>
-                    <div className="font-light text-xl mb-2">
-                        Ginger Bread
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div className="flex flex-col">
-                        <Image className="border-2 border-black"
-                            src={p2022} width={400} height={400} alt="profile"></Image>
-                    <div className="text-center mt-4">
-                      <h1 className="text-2xl font-medium mb-1">
-                                Treasurer
-                      </h1>
-                    <div className="font-light text-xl mb-2">
-                        Ginger Bread
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div className="flex flex-col">
-                        <Image className="border-2 border-black"
-                            src={p2022} width={400} height={400} alt="profile"></Image>
-                    <div className="text-center mt-4">
-                      <h1 className="text-2xl font-medium mb-1">
-                                Media Manager
-                      </h1>
-                    <div className="font-light text-xl mb-2">
-                        Ginger Bread
-                    </div>
-                  </div>
-              </div>
-            </div>
-        </div>
+            <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163822215947624488/image.png?ex=6540f8e7&is=652e83e7&hm=54542708fc33fe30370a7d276b07dd9ed9a0184fe77deb6d3719f4386f43d51c&=&width=400&height=400"} position={"President"} name={"Monita"}/>
+            <ProfileCard src={""} position={"President"} name={"Monita"}/>
+            <ProfileCard src={""} position={"President"} name={"Monita"}/>
+            <ProfileCard src={""} position={"President"} name={"Monita"}/>
+          </div>
         <p className="text-center text-2xl font-light italic mb-6">leaders of year 2021-2022</p>
           <div className="flex flex-wrap">
-              <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div className="flex flex-col">
-                        <Image className="border-2 border-black"
-                            src={p2022} width={400} height={400} alt="profile"></Image>
-                    <div className="text-center mt-4">
-                      <h1 className="text-2xl font-medium mb-1">
-                                President
-                      </h1>
-                    <div className="font-light text-xl mb-2">
-                        Ginger Bread
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div className="flex flex-col">
-                        <Image className="border-2 border-black"
-                            src={p2022} width={400} height={400} alt="profile"></Image>
-                    <div className="text-center mt-4">
-                      <h1 className="text-2xl font-medium mb-1">
-                                Vice President
-                      </h1>
-                    <div className="font-light text-xl mb-2">
-                        Ginger Bread
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div className="flex flex-col">
-                        <Image className="border-2 border-black"
-                            src={p2022} width={400} height={400} alt="profile"></Image>
-                    <div className="text-center mt-4">
-                      <h1 className="text-2xl font-medium mb-1">
-                                Treasurer
-                      </h1>
-                    <div className="font-light text-xl mb-2">
-                        Ginger Bread
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                  <div className="flex flex-col">
-                        <Image className="border-2 border-black"
-                            src={p2022} width={400} height={400} alt="profile"></Image>
-                    <div className="text-center mt-4">
-                      <h1 className="text-2xl font-medium mb-1">
-                                Media Manager
-                      </h1>
-                    <div className="font-light text-xl mb-2">
-                        Ginger Bread
-                    </div>
-                  </div>
-              </div>
-            </div>
-        </div>
+          <ProfileCard src={"https://media.discordapp.net/attachments/1163526744570081310/1163822215947624488/image.png?ex=6540f8e7&is=652e83e7&hm=54542708fc33fe30370a7d276b07dd9ed9a0184fe77deb6d3719f4386f43d51c&=&width=400&height=400"} position={"President"} name={"Monita"}/>
+            <ProfileCard src={""} position={"President"} name={"Monita"}/>
+            <ProfileCard src={""} position={"President"} name={"Monita"}/>
+            <ProfileCard src={""} position={"President"} name={"Monita"}/>
+          </div>
       </div>
     )
 }

@@ -15,7 +15,7 @@ export default function Navbar() {
 
           <div className ="flex justify-between items-center">
             
-            <Link href="/"><p className="text-xl font-bold italic drop-shadow-lg">what we do</p></Link>
+            <Link href="/doing"><p className="text-xl font-bold italic drop-shadow-lg">what we do</p></Link>
             <span className="mx-4 mb-6 text-5xl">.</span>
             <Link href="/about"><p className="mr-4 text-xl font-bold italic drop-shadow-lg">about us</p></Link>
           <Link href="/horror">
@@ -37,7 +37,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className="absolute right-40 z-10 w-36 origin-top-right bg-[#7096d1]">
+      <div className="absolute right-40 z-10 w-36 origin-top-right bg-[#7096d1] opacity-0">
     <div className="py-1" role="none">
       <a href="/doing/fundraising" className="block pt-1 font-thin text-lg text-white text-center underline">raising funds</a>
       <a href="/doing/helping" className="block pb-2 font-thin text-lg text-white text-center underline">how we help</a>
