@@ -20,7 +20,7 @@ const ProfileCard: React.FC<Props> = ({src, name, position}) => {
                     <h1 className="text-2xl font-medium mb-1">
                         {position}
                     </h1>
-                    <div className="font-light text-xl mb-2">
+                    <div className="font-light text-xl mb-1">
                         {name}
                     </div>
                 </div>

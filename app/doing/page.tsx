@@ -1,7 +1,3 @@
-"use client"
-
-import { Gallery } from "react-grid-gallery";
-
 import Image from "next/image"
 import Link from "next/link"
 
@@ -26,7 +22,7 @@ export default function IndexPage() {
                 </Image>
                     <div className="text-center mt-4">
                     <h1 className="text-2xl font-medium mb-1">
-                        Raising Fund by Selling Overly Priced Food
+                        Raising Fund
                     </h1>
                 </div>
                 </Link>
@@ -41,7 +37,7 @@ export default function IndexPage() {
                 </Image>
                     <div className="text-center mt-4">
                     <h1 className="text-2xl font-medium mb-1">
-                        Helping Children by Donating Cheap Stuff
+                        Helping Children and Others
                     </h1>
                 </div>
                 </Link>
