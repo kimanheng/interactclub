@@ -19,9 +19,9 @@ export default function IndexPage() {
             <div className="flex flex-col m-6">
                 <Link href="/doing/fundraising">
                 <Image className="border-2 border-[#7096d1]"
-                    src={"https://media.discordapp.net/attachments/1163526744570081310/1163801819579945081/image.png?ex=6540e5e8&is=652e70e8&hm=6d15eecff721360bf76e6f66a4530b96f19d1d18f946268f6031dee97ae8efd9&=&width=560&height=480"} 
+                    src={"https://media.discordapp.net/attachments/1163526744570081310/1163801819579945081/image.png?ex=6540e5e8&is=652e70e8&hm=6d15eecff721360bf76e6f66a4530b96f19d1d18f946268f6031dee97ae8efd9&=&width=560&height=400"} 
                     width={560}
-                    height={480} 
+                    height={400} 
                     alt="profile">
                 </Image>
                     <div className="text-center mt-4">
@@ -34,9 +34,9 @@ export default function IndexPage() {
             <div className="flex flex-col m-6">
                 <Link href="/doing/helping">
                 <Image className="border-2 border-[#7096d1]"
-                    src={"https://media.discordapp.net/attachments/1163526744570081310/1163801856271712277/image.png?ex=6540e5f0&is=652e70f0&hm=42575306659ee1df8c7cdfece8be5cc18bd928348a658d4e5e5af5c308904bc8&=&width=560&height=480"} 
+                    src={"https://media.discordapp.net/attachments/1163526744570081310/1163801856271712277/image.png?ex=6540e5f0&is=652e70f0&hm=42575306659ee1df8c7cdfece8be5cc18bd928348a658d4e5e5af5c308904bc8&=&width=560&height=400"} 
                     width={560}
-                    height={480} 
+                    height={400} 
                     alt="profile">
                 </Image>
                     <div className="text-center mt-4">
