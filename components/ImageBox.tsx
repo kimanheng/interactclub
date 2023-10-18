@@ -10,7 +10,7 @@ interface Props {
 
 const ImageBox: React.FC<Props> = ({src, title, description, height, width}) => {
     return (
-        <div className="flex flex-col mx-6 my-2">
+        <div className="flex flex-col mx-4 my-2">
                 <Image className="border-2 border-[#7096d1]"
                     src={src} 
                     width={width}
