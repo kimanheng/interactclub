@@ -1,20 +1,8 @@
-- [Next.js](https://nextjs.org/)
-- [Tailwind.css](https://tailwindcss.com/)
-- [Sanity.io](https://www.sanity.io/)
-
-
-  ### Commands you will need
+## Commands you will need
 ```sh
 npm install -D @tailwindcss/typography
 
 ```
-
-```sh
-npm install @portabletext/react @sanity/image-url next-sanity next-themes
-
-```
-
-
 ## Deployment
 
 After having run the `create-remix` command and selected "Vercel" as a deployment target, you only need to [import your Git repository](https://vercel.com/new) into Vercel, and it will be deployed.
