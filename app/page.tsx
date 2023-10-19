@@ -1,6 +1,6 @@
 "use client"
 
-import ImageBox from "component/ImageBox";
+import ImageBox from "components/ImageBox";
 import React from "react"
 import { row0 , row1 } from "data/images"
 
