@@ -1,4 +1,4 @@
-import Image from 'component/Image'
+import Image from 'components/Image'
 
 interface Props {
     src: string
