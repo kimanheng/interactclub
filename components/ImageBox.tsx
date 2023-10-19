@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 interface Props {
     src: string
-    title: string
-    description: string
-    height: number
-    width: number
+    title?: string
+    description?: string
+    width?: number
+    height?: number
 }
 
 const ImageBox: React.FC<Props> = ({src, title, description, height, width}) => {
