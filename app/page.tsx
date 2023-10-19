@@ -13,11 +13,11 @@ export default function IndexPage() {
                  INTERACT <span className="text-[#7096d1]">CLUB</span></h1></a>
               </div>
               <div className="flex flex-wrap mt-8 w-full">
-              <div className="justify-center md:scale-95 md:flex">{row0.map((row, i) => <ImageBox src={row.src} width={row.width} height={row.height}></ImageBox>)}
+              <div className="justify-center md:scale-95 md:flex">{row0.map((row) => <ImageBox src={row.src} width={row.width} height={row.height}></ImageBox>)}
 
                     </div></div>
                     <div className="flex flex-wrap w-full">
-                        <div className="justify-center md:scale-95 md:flex">{row1.map((row, i) => <ImageBox src={row.src} width={row.width} height={row.height}></ImageBox>)}
+                        <div className="justify-center md:scale-95 md:flex">{row1.map((row) => <ImageBox src={row.src} width={row.width} height={row.height}></ImageBox>)}
                     </div></div>
                 </div>
         <h1 className="text-xl font-light text-center text-[#081f3c] inset-x-0 bottom-0 h-16">
